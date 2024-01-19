@@ -1,19 +1,18 @@
-/* Reset some default styles for better consistency */
 body, h1, h2, p, a {
     margin: 0;
     padding: 0;
-    box-sizing: border-box; /* Include padding and border in element's total width and height */
+    box-sizing: border-box; 
 }
 
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f8f9fa; /* Lighter background color */
-    color: #495057; /* Dark text color */
-    line-height: 1.6; /* Improved line spacing for better readability */
+    background-color: #f8f9fa;
+    color: #495057; 
+    line-height: 1.6; 
 }
 
 nav {
-    background-color: #007bff; /* Primary blue color */
+    background-color: #007bff;
     padding: 10px;
     text-align: center;
     font-family: "Montserrat", sans-serif;
@@ -23,7 +22,7 @@ nav a {
     color: #fff;
     text-decoration: none;
     padding: 1rem;
-    transition: color 0.3s ease; /* Smooth transition effect for color change */
+    transition: color 0.3s ease; 
     font-size: 1.2rem;
     font-weight: 600;
 }
@@ -34,10 +33,10 @@ nav a {
 }
 
 #banner {
-    background-color: #dc3545; /* Red background color */
+    background-color: #dc3545;
     padding: 20px;
     font-family: "Montserrat", sans-serif;
-    text-align: center; /* Center text within the banner */
+    text-align: center; 
 }
 
 #banner span {
@@ -48,17 +47,15 @@ nav a {
 
 #clock {
     font-size: 5rem;
-    color: #01d3fd; /* Green color for the clock */
+    color: #01d3fd; 
     margin-top: 30px;
     font-family: "Montserrat", sans-serif;
 }
 
-/* Add some hover effects for links */
 nav a:hover {
-    color: #0056b3; /* Darker blue color on hover */
+    color: #0056b3;
 }
 
-/* Style the body background for better readability */
 @media only screen and (max-width: 600px) {
     body {
         background-color: #fff;
